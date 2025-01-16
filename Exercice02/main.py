@@ -15,3 +15,7 @@ students = {
          'Histoire': 78
      }
 }
+
+# Print the students' grades
+for student, grades in students.items():
+    print(f"{student}: {grades}")
