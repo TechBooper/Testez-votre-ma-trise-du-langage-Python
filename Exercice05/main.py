@@ -1,10 +1,26 @@
-def sum(a, b):
-    return a + b
+def sum(a: float, b: float) -> float:
+    """ 
+    Returns the sum of two numbers.
 
-def subtraction(a, b):
+    Parameters:
+    a (float): The first number.
+    b (float): The second number.
+
+    Returns:
+    float: The sum of a and b.
+    """
+    return a + b
+ 
+def subtraction(a: float, b: float) -> float:
+    """ 
+    Returns the difference between two numbers.
+
+    Parameters:
+    a (float): The number from which to subtract.
+    b (float): The number to subtract.
+
+    Returns:
+    float: The result of a minus b.
+    """
     return a - b
 
-a = 10
-b = 5
-print(f"La somme de {a} et {b} est : {sum(a, b)}")
-print(f"La soustraction de {a} et {b} est : {subtraction(a, b)}")

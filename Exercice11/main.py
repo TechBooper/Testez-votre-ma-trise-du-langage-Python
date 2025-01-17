@@ -20,10 +20,10 @@ class BankAccount:
     def display_balance(self):
         print(f"Titulaire du compte : {self.account_holder}, Solde : {self.balance}")
 
-# Example usage
+
 account = BankAccount("Alice", 1000)
 account.display_balance()
 account.deposit(500)
 account.withdraw(200)
 account.display_balance()
-account.withdraw(1500)  # Should fail due to insufficient balance
+account.withdraw(1500)

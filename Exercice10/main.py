@@ -6,6 +6,7 @@ class Person:
     def display_details(self):
         print(f"Nom: {self.name}, Âge: {self.age}")
 
+
 class Employee(Person):
     def __init__(self, name, age, salary):
         super().__init__(name, age)
